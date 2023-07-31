@@ -1,11 +1,28 @@
-![header image]
-(https://github.com/ScottHills-Deloitte/Group09_Feb06_Capstone/blob/scott/IMAGES/ML_Visualization_Header.png)
-(/IMAGES/ML_Visualization_Header.png)
+![ML_Visualization_Header](https://github.com/ScottHills-Deloitte/Group09_Feb06_Capstone/assets/125297528/01a5268d-841a-4149-a972-7d5215233da8)
 
-## Predicting overall business health from publicly released financial data using machine learning classification models.
-## elevator pitch
-			§ Immediately after the title, write a very short description of the problem you are solving, the data you are using to solve it, and how well your model solves the problem
-       This should be no more than a couple of sentences
+## Business Health Predictor Investment Model
+_Using publicly released financial data along with machine learning classification models to predict an overall health score for a business_
+## Overview
+For the individual investors, predicting which business will .........
 
-## Dataset 
+**Stakeholder:**
+
+**End User:** 
+
+**Business Problem:** Assist individual investors.......
+
+**Business Solution:**
+
+*Objective:* 
+
+*Method:*
+
+*Success Criteria:* 
+
+
+## Dataset - DataUnderstanding
+## Business Understanding
+## Modeling and Evaluation
+## Conclusion
+## Repository Navigation
 
