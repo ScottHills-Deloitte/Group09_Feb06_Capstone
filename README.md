@@ -2,27 +2,32 @@
 # Predicting the future health and investability of public companies using published financial data.
 _Using standard released financial data along with machine learning classification models to predict an overall health/investment rating for a business_
 
-## Business Understanding
-**Business Problem:** Assist individual investors.......
+## Business Problem 
+There needs to be more comprehensive and reliable tools for individual investors to assess a company's financial stability and potential for sustainable growth. 
+When relying on traditional financial metrics and analysis, many investors need help identifying healthy companies to invest in.  
+This is because these metrics only partially capture the entire picture of a company's long-term viability.
 
 ## The Solution
-**Business Health Predictor Model** 
-*Objective:* 
+
+*Objective:* Our Focus is to assist individual investors by building a predictive machine learning model (**Business Health Predictor**) to rate individual companies with a business health grade as a suggestive indicator for investment worthiness. 
 
 *Method:*
 
 *Success Criteria:* 
 
-README.md includes concise summary of project with all data science steps
 
 ## Data Understanding and Preparation
-The data sourced for this project is from a dataset containing 
+The data sourced for this project is from a Kaggle.com repository for American companies  
 
 ###### Source of Data
 https://www.kaggle.com/datasets/utkarshx27/american-companies-bankruptcy-prediction-dataset
 
 ###### Data Dictionary
 ![dataset_datadictionary](https://github.com/ScottHills-Deloitte/Group09_Feb06_Capstone/assets/125297528/8aab8553-551d-4d75-82ec-fab4313a5009)
+
+
+
+
 
 ## Modeling and Evaluation
 
@@ -36,7 +41,7 @@ https://www.kaggle.com/datasets/utkarshx27/american-companies-bankruptcy-predict
 4. Include outstanding stock and price of stock at YE to reviw any affects on the model as build.
 
 #### For More Information
-Please review the full analysis in our [Jupyter Notebook](MainNotebook.ipynb) or [presentation deck](project_presentation.pdf).
+Please review the full analysis in our [Jupyter Notebook](MainNotebook.ipynb) or [presentation deck](Group 09_Final Presentation.pptx).
 
 ## Repository Navigation
 
