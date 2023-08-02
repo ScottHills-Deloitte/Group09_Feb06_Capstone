@@ -46,6 +46,7 @@ _Data required minimal cleanup and preparation_
 ###### Creating Ratios to use for Targe Prediction
 Creating ratios and rating that are built from financial data listed in the dataset. We determined these rations to cover three major aspects of business, Solvency, Liquidity, Profitability. These ratings were determined by comparing the results to that of other businesses. The solvency, liquidity, and profitability ratings are then added up to get the overall business health of the organization. This overal business helath is what will be used as the target variable for the model.
 
+![Code_Creating_Ratio_Fields](https://github.com/ScottHills-Deloitte/Group09_Feb06_Capstone/assets/125297528/cb667a2d-7918-449d-bc60-449f607501bb)
 
 
 
