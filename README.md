@@ -31,7 +31,7 @@ https://www.kaggle.com/datasets/utkarshx27/american-companies-bankruptcy-predict
 - There are 8,262 distinct companies in the dataset.
 - There are no null values in the dataset to discard. 
 - All data features are in numeric format except for the company name and status label fields. These must either be removed from the model or converted to a numeric value using an encoding process.
-- All numeric monetary fields are in the same format and rounded to the same precision.
+- All numeric monetary features are in the same format and rounded to the same precision.
 
 ## Modeling and Evaluation
 
@@ -42,8 +42,6 @@ https://www.kaggle.com/datasets/utkarshx27/american-companies-bankruptcy-predict
 _Data required minimal cleanup and preparation_ 
  - We renamed most column headings to be clear and understand what is contained in each column._
  - Dropping the categorical columns that do not effect the performance of the dataset as well as dropping the columns that were used to find the ratios that determine the necessary ratings.
-
-
 
 ###### Creating Ratios to use for Targe Prediction
 Creating ratios and rating that are built from financial data listed in the dataset. We determined these rations to cover three major aspects of business, Solvency, Liquidity, Profitability. These ratings were determined by comparing the results to that of other businesses. The solvency, liquidity, and profitability ratings are then added up to get the overall business health of the organization. This overal business helath is what will be used as the target variable for the model.
