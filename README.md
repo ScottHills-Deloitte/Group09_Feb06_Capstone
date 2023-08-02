@@ -39,7 +39,17 @@ https://www.kaggle.com/datasets/utkarshx27/american-companies-bankruptcy-predict
 
 ![Code_Data_load](https://github.com/ScottHills-Deloitte/Group09_Feb06_Capstone/assets/125297528/011b0eae-f129-431c-8c1a-807c96d91241)
 
-_Data required minimal cleanup and preparation. We renamed most column headings to be clear and understand what is contained in each column._
+_Data required minimal cleanup and preparation_ 
+ - We renamed most column headings to be clear and understand what is contained in each column._
+ - Dropping the categorical columns that do not effect the performance of the dataset as well as dropping the columns that were used to find the ratios that determine the necessary ratings.
+
+
+
+###### Creating Ratios to use for Targe Prediction
+Creating ratios and rating that are built from financial data listed in the dataset. We determined these rations to cover three major aspects of business, Solvency, Liquidity, Profitability. These ratings were determined by comparing the results to that of other businesses. The solvency, liquidity, and profitability ratings are then added up to get the overall business health of the organization. This overal business helath is what will be used as the target variable for the model.
+
+
+
 
 ## Conclusion 
    
@@ -66,9 +76,3 @@ Please review the full analysis in our [Jupyter Notebook](MainNotebook.ipynb) or
 ├── GROUP 9_FINAL_NOTEBOOK.ipynb  <- Technical and narrative documentation in Jupyter Notebook
 ├── project_presentation.pdf      <- PDF version of final project presentation
 ```
-# H1
-## H2
-### H3
-#### H4
-##### H5
-###### H6
