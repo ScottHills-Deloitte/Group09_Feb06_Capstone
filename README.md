@@ -17,7 +17,7 @@ This is because these metrics only partially capture the entire picture of a com
 
 
 ## Data Understanding and Preparation
-The data sourced for this project is from a Kaggle.com repository for American companies  
+The data source for this project is a Kaggle.com repository for American companies listed on the New York Stock Exchange and NASDAQ. The dataset comprises financial data from 8,000+ distinct companies recorded during the period spanning from 1999 to 2018. 
 
 ###### Source of Data
 https://www.kaggle.com/datasets/utkarshx27/american-companies-bankruptcy-prediction-dataset
@@ -25,11 +25,21 @@ https://www.kaggle.com/datasets/utkarshx27/american-companies-bankruptcy-predict
 ###### Data Dictionary
 ![dataset_datadictionary](https://github.com/ScottHills-Deloitte/Group09_Feb06_Capstone/assets/125297528/8aab8553-551d-4d75-82ec-fab4313a5009)
 
-
-
-
+###### Data Investigation Findings
+- That data is anonymized so that we don't know the actual names of the companies.
+- There are no industry categories or stock history data provided.
+- There are 8,262 distinct companies in the dataset.
+- There are no null values in the dataset to discard. 
+- All data features are in numeric format except for the company name and status label fields. These must either be removed from the model or converted to a numeric value using an encoding process.
+- All numeric monetary fields are in the same format and rounded to the same precision.
 
 ## Modeling and Evaluation
+
+![code_python_libraries](https://github.com/ScottHills-Deloitte/Group09_Feb06_Capstone/assets/125297528/ca9c8349-29a5-420b-9584-cd051521c542)
+
+![Code_Data_load](https://github.com/ScottHills-Deloitte/Group09_Feb06_Capstone/assets/125297528/011b0eae-f129-431c-8c1a-807c96d91241)
+
+_Data required minimal cleanup and preparation. We renamed most column headings to be clear and understand what is contained in each column._
 
 ## Conclusion 
    
