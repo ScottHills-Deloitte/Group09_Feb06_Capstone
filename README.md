@@ -76,7 +76,7 @@ Creating ratios and rating that are built from financial data listed in the data
 4. Include outstanding stock and price of stock at YE to review any effects on the model as build.
 
 #### For More Information
-Please review the full analysis in our [Jupyter Notebook](MainNotebook.ipynb) or [presentation deck](Group 09_Final Presentation.pptx).
+Please review the full analysis in our [Jupyter Notebook](MainNotebook.ipynb) or [presentation deck](Group 09_Final Capstone Presentation.pptx).
 
 ## Repository Navigation
 
