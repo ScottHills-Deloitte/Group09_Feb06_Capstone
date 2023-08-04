@@ -12,8 +12,10 @@ This is because these metrics only partially capture the entire picture of a com
 *Objective:* Our Focus is to assist individual investors by building a predictive machine learning model (**Business Health Predictor**) to rate individual companies with a business health grade as a suggestive indicator for investment worthiness. 
 
 *Method:*
+We used a Classification type, Random Forest Model as our final predictor for our Future Business Health target variable.
 
 *Success Criteria:* 
+Can we predict with an acceptable level of accuracy the business health target variable for an individual public company using the reported year-end financial data from the prior year?
 
 
 ## Data Understanding and Preparation
@@ -48,6 +50,20 @@ Creating ratios and rating that are built from financial data listed in the data
 
 ![Code_Creating_Ratio_Fields](https://github.com/ScottHills-Deloitte/Group09_Feb06_Capstone/assets/125297528/cb667a2d-7918-449d-bc60-449f607501bb)
 
+![Code_dropping_Columns](https://github.com/ScottHills-Deloitte/Group09_Feb06_Capstone/assets/125297528/d6d630e8-ca4d-4520-9213-635ebc81ef19)
+
+![Code_solvency_rating](https://github.com/ScottHills-Deloitte/Group09_Feb06_Capstone/assets/125297528/12fa08d5-ac85-4c06-9678-6f5051ba67e8)
+![Code_Liq_prof_ratings](https://github.com/ScottHills-Deloitte/Group09_Feb06_Capstone/assets/125297528/c125de9d-d6b8-4fb9-bffb-f96664efae58)
+![Code_BusHealth_calc](https://github.com/ScottHills-Deloitte/Group09_Feb06_Capstone/assets/125297528/303e1d8d-791b-4939-a4be-0680a1f63ba9)
+
+![code_train_test_split](https://github.com/ScottHills-Deloitte/Group09_Feb06_Capstone/assets/125297528/774b0108-56f4-4c2c-aa8e-264075b07ee0)
+![code_LinearSVC1](https://github.com/ScottHills-Deloitte/Group09_Feb06_Capstone/assets/125297528/88b25b52-0ca3-4f08-a29d-813cd0a35913)
+![code_LinearSVC2](https://github.com/ScottHills-Deloitte/Group09_Feb06_Capstone/assets/125297528/d7a1e052-1ef2-4ae1-8a27-acbcbcc319be)
+![code_LinearSVC3](https://github.com/ScottHills-Deloitte/Group09_Feb06_Capstone/assets/125297528/39958e06-6d59-438f-9e3e-ba8d60c0b633)
+
+![code_RandomForestModel1](https://github.com/ScottHills-Deloitte/Group09_Feb06_Capstone/assets/125297528/029b139d-fc6a-4f79-b59f-f8c536a3b66e)
+![code_RandomForestModel2](https://github.com/ScottHills-Deloitte/Group09_Feb06_Capstone/assets/125297528/90547aad-55d0-429b-a30f-bc291ffcd819)
+![code_RandomForestModel3](https://github.com/ScottHills-Deloitte/Group09_Feb06_Capstone/assets/125297528/ab0d7b57-f9e0-4626-b839-c2d67c505280)
 
 
 ## Conclusion 
@@ -57,7 +73,7 @@ Creating ratios and rating that are built from financial data listed in the data
 1. Refresh the dataset to obtain financial information for the current period from 2019-2022
 2. Review for changes in predictive modeling around impactful business events (pre and post-Covid, recessionary periods, etc.)
 3. Obtain industry data for companies to review how the models are affected when used for specific industry categories.
-4. Include outstanding stock and price of stock at YE to reviw any affects on the model as build.
+4. Include outstanding stock and price of stock at YE to review any effects on the model as build.
 
 #### For More Information
 Please review the full analysis in our [Jupyter Notebook](MainNotebook.ipynb) or [presentation deck](Group 09_Final Presentation.pptx).
@@ -65,13 +81,18 @@ Please review the full analysis in our [Jupyter Notebook](MainNotebook.ipynb) or
 ## Repository Navigation
 
 ```
-├── DATA                         <- Kaggle repository download for American Companies Financial Report Data
-│   ├── american_bankruptcy.csv                    <- American Companies Financial Data
-│   ├── american_bankruptcy_datafile_original.zip  <- Downloaded zip file of dataset from Kaggle.com
-│   ├── american_bankruptcy_updated.csv            <- American Companies Financial Data (**working version used in final notebook**)
-├── IMAGES                        <- file containing any visualizations found throughout the project
-├── GROUP 9_JUNE 23.pdf           <- PDF version of project proposal. 
-├── README.md                     <- Project README file
-├── GROUP 9_FINAL_NOTEBOOK.ipynb  <- Technical and narrative documentation in Jupyter Notebook
-├── project_presentation.pdf      <- PDF version of final project presentation
+MAIN
+├── DATA                                          <- Kaggle repository download for American Companies Financial Report Data
+│   ├── american_bankruptcy.csv                        <- American Companies Financial Data
+│   ├── american_bankruptcy_datafile_original.zip      <- Downloaded zip file of dataset from Kaggle.com
+│   ├── american_bankruptcy_updated.csv                <- American Companies Financial Data (**working version used in final notebook**)
+├── IMAGES                                        <- file containing any visualizations found throughout the project
+├── GROUP 9_JUNE 23.pdf                           <- PDF version of project proposal. 
+├── README.md                                     <- Project README file
+├── GROUP 9_FINAL_NOTEBOOK.ipynb                  <- Technical and narrative documentation in Jupyter Notebook
+├── GROUP 09_Final Capstone Presentation.pdf      <- PDF version of final project presentation
+├──(Branches)                                     <- Individual Branches for each project member
+│   ├── DATA
+│   ├── IMAGES
+│   notebookname.ipynb                                 <- Individual notebooks each project member
 ```
